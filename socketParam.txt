@@ -1,0 +1,36 @@
+LIVE Base Url	https://bahamaeats.com:8008
+Local Base Url	http://localhost:8008
+
+================= connectUser =================================
+Method 	connectUser
+Listener connectListener
+param:
+"userId": 108
+"type": 1=>user, 2=>driver
+
+dataToSend:
+{
+  type: 1,
+  "userId": 105
+}
+
+
+================= sendLatLng =================================
+Method 	sendLatLng
+Listener	receiveLatLng
+
+
+"receiverType": 1=>user, 2=>driver
+
+
+dataToSend:
+{
+  "receiverId": 104,
+  "receiverType": 1,
+  "latitude": 30.192414,
+  "longitude": 76.12341
+}
+
+================= go_offline =================================
+Method 	go_offline
+Listener	rest_offline

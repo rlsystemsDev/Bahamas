@@ -1,0 +1,56 @@
+{
+  "name": "bahamaeats_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bahamaeatsapp.js",
+  "dependencies": {
+    "apn": "^2.2.0",
+    "axios": "^0.21.1",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "boom": "^7.3.0",
+    "cookie-parser": "^1.4.5",
+    "crypto": "^1.0.1",
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-http-to-https": "^1.1.4",
+    "fcm-node": "^1.6.1",
+    "google-distance": "^1.0.1",
+    "http-errors": "^1.8.0",
+    "in_array": "^1.1.0",
+    "jsonwebtoken": "^8.4.0",
+    "moment": "^2.24.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.1.0",
+    "nodemailer": "^6.6.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "paypal-rest-sdk": "^1.8.1",
+    "querystring": "^0.2.1",
+    "request": "^2.88.2",
+    "sequelize": "^4.42.1",
+    "sequelize-cli": "^5.4.0",
+    "socket.io": "^2.3.0",
+    "twilio": "^3.65.0",
+    "underscore": "^1.13.1",
+    "uuid": "^3.3.2",
+    "views": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/cqlsys-php/bamaeats_rajat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/cqlsys-php/bamaeats_rajat/issues"
+  },
+  "homepage": "https://gitlab.com/cqlsys-php/bamaeats_rajat#readme"
+}

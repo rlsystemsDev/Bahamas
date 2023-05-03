@@ -1,0 +1,6 @@
+/config/config.json
+/node_modules/
+package-lock.json
+bahamaeatsapp.js
+public/images/users/
+public/images/drivers/

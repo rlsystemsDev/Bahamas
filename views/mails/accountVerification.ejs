@@ -1,0 +1,235 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+  <!--[if gte mso 9]>
+	<xml>
+		<o:OfficeDocumentSettings>
+		<o:AllowPNG/>
+		<o:PixelsPerInch>96</o:PixelsPerInch>
+		</o:OfficeDocumentSettings>
+	</xml>
+	<![endif]-->
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="format-detection" content="date=no" />
+  <meta name="format-detection" content="address=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="x-apple-disable-message-reformatting" />
+  <!--[if !mso]><!-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!--<![endif]-->
+  <title>Email Template</title>
+  <!--[if gte mso 9]>
+	<style type="text/css" media="all">
+		sup { font-size: 100% !important; }
+	</style>
+	<![endif]-->
+  <!-- body, html, table, thead, tbody, tr, td, div, a, span { font-family: Arial, sans-serif !important; } -->
+
+
+  <style type="text/css" media="screen">
+    body {
+      padding: 0 !important;
+      margin: 0 auto !important;
+      display: block !important;
+      min-width: 100% !important;
+      width: 100% !important;
+      background: #f4ecfa;
+      -webkit-text-size-adjust: none
+    }
+
+    a {
+      color: #f3189e;
+      text-decoration: none
+    }
+
+    p {
+      padding: 0 !important;
+      margin: 0 !important
+    }
+
+    img {
+      margin: 0 !important;
+      -ms-interpolation-mode: bicubic;
+      /* Allow smoother rendering of resized image in Internet Explorer */
+    }
+
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: inherit !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    .btn-16 a {
+      display: block;
+      padding: 15px 35px;
+      text-decoration: none;
+    }
+
+    .btn-20 a {
+      display: block;
+      padding: 15px 35px;
+      text-decoration: none;
+    }
+
+    .l-white a {
+      color: #ffffff;
+    }
+
+    .l-black a {
+      color: #282828;
+    }
+
+    .l-pink a {
+      color: #f3189e;
+    }
+
+    .l-grey a {
+      color: #6e6e6e;
+    }
+
+    .l-purple a {
+      color: #9128df;
+    }
+
+    .gradient {
+      background: linear-gradient(to right, #9028df 0%, #f3189e 100%);
+    }
+
+    .btn-secondary {
+      border-radius: 10px;
+      background: linear-gradient(to right, #9028df 0%, #f3189e 100%);
+    }
+
+
+    /* Mobile styles */
+    @media only screen and (max-device-width: 480px),
+    only screen and (max-width: 480px) {
+      .mpx-10 {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+      }
+
+      .mpx-15 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+
+      u+.body .gwfw {
+        width: 100% !important;
+        width: 100vw !important;
+      }
+
+      .social {
+        width: 60% !important;
+      }
+
+      .order_total {
+        padding: 0 30px !important;
+      }
+
+      .order_confirm {
+        padding: 0 15px !important;
+      }
+
+      .top_logo {
+        padding: 10px !important;
+      }
+
+      .top_logo h3 {
+        font-size: 16px !important;
+      }
+
+      .fries_div {
+        float: none !important;
+      }
+    }
+  </style>
+</head>
+
+<body class="body"
+  style=" font-family: 'Poppins', sans-serif; padding:0 !important; margin:0 auto !important; display:block !important; min-width:100% !important; width:100% !important; background:#e7d3f7; -webkit-text-size-adjust:none;">
+  <div style="width: 600px; background: #fff; padding: 0 0 20px; margin: 0 auto; max-width: 100%;">
+    <!----- top----->
+
+    <div class="">
+      <img src="<%= appURL %>mails/accountVerification/pizza.png" width="100%">
+      <!-- <div class="top_logo"
+        style="position: absolute;top: 0;background: #74b16c;left: 50%;transform: translateX(-50%);padding: 20px 30px;border-bottom-left-radius: 50px;display: flex;align-items: center;border-bottom-right-radius: 10px;">
+        <h3 style="margin: 0;color: #fff;font-size: 25px;font-weight: 600;"> Welcome to </h3>
+        <img src="<%= appURL %>mails/accountVerification/logo2.png" style="width: 60px;margin-left: 10px !important;">
+      </div> -->
+    </div>
+
+
+
+    <div class="order_total" style="text-align: center;padding: 0px 60px;">
+      <h2 style="padding: 30px 0 10px;font-weight: 600;"> Hi <%= firstName + ' ' + lastName; %>
+      </h2>
+      <p style="line-height: 32px;color: #2e2e2e;"> Welcome to <span style="color: #73ae6a;font-weight: 500;"> Bahama
+          Eats. </span> You're now part of the leading food delivery service in the island of Bahamas. Don't let hunger
+        get in the way! Order your favourite food from the best restaurants in Bahamas to your door step. </p>
+    </div>
+
+    <div style="text-align: center; padding: 40px 0 20px;">
+      <a href="<%= appURL+'apiNew/verifyAccount/'+hash; %>"
+        style="background: #fff;color: #6db762;padding: 12px 40px;font-size: 14px;font-weight: 600;display: inline-block;border: 2px solid #6db762;">
+        Verify Your Account </a>
+    </div>
+
+    <div class="get_yours" style="background: #74b16b;margin: 50px 0 20px;padding: 25px 30px 40px;">
+      <div class="fries_div" style="float: left;/*! text-align: center; */width: 60%;">
+        <img src="<%= appURL %>mails/accountVerification/fries.png" style="width: 275px;margin-top: -62px !important;">
+      </div>
+      <div style="text-align: center;">
+        <h2 style="margin: 0;font-weight: 500;color: #fff;font-size: 20px;margin-bottom: 20px;"> Get yours</h2>
+        <div>
+          <a href="https://apps.apple.com/in/app/bahama-eats-food-delivery/id1470039780" style="margin-right: 5px;">
+            <img src="<%= appURL %>mails/accountVerification/app_store.png" style="width: 88px;"> </a>
+          <a href="https://play.google.com/store/apps/details?id=com.bahameats"> <img
+              src="<%= appURL %>mails/accountVerification/play_store.png" style="width: 88px;"> </a>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!---- footer----->
+    <div style="padding: 25px;margin: 0 auto;background: #f0f0f0;text-align: center;">
+      <div class="social" style="width: 33%;margin: 0 auto;padding-bottom: 20px;border-bottom: 1px solid #bbb;">
+        <a href="https://www.facebook.com/bahamaeats">
+          <img src="<%= appURL %>mails/accountVerification/fb.png" style="width: 30px;margin-right: 25px !important;">
+        </a>
+        <a href="https://www.instagram.com/bahamaeats">
+          <img src="<%= appURL %>mails/accountVerification/insta.png"
+            style="width: 30px;margin-right: 25px !important;">
+        </a>
+        <a href="https://twitter.com/bahamaeats">
+          <img src="<%= appURL %>mails/accountVerification/tw.png"
+            style="width: 30px;/*! margin-right: 20px !important; */">
+        </a>
+      </div>
+
+      <div style="padding: 20px;">
+        <p style="font-size: 11px;color: #a1a1a1;"> Bahama Eats Ltd. Prince Charles Dr Nassau, Bahamas </p>
+        <p style="font-size: 11px;margin-top: 15px !important;"> <a
+            style="padding: 0px 10px;border-right: 1px solid #bbb;color: #a1a1a1;"> Privacy </a> <a
+            style="padding: 0px 10px;color: #a1a1a1;"> Unsubscribe </a> </p>
+      </div>
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>
